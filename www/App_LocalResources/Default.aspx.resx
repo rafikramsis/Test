@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnSendContactResource1.Text" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="locBusResource1.Text" xml:space="preserve">
+    <value>Shuttle bus to the beach</value>
+  </data>
+  <data name="locClearResource1.Text" xml:space="preserve">
+    <value>Clear the form</value>
+  </data>
+  <data name="locCommunalResource1.Text" xml:space="preserve">
+    <value>Communal sun area with barbeque area</value>
+  </data>
+  <data name="locCopyRightResource1.Text" xml:space="preserve">
+    <value>All rights reserved</value>
+  </data>
+  <data name="locEmailResource1.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="locFirstPargraphResource1.Text" xml:space="preserve">
+    <value>  Al Saraya resort is a new emerging development inside Sahl Hasheesh international
+			resort. 
+            Sahl Hasheesh is a purpose-built paradise on the Red Sea Riviera and is set to be
+			the largest fully integrated 
+            resort community on the Red Sea Coast in Egypt, it is considered by many to be the
+			”Jewel of the Red Sea” that 
+            has revealed a new concept of luxury, relaxation &amp; recreation.</value>
+  </data>
+  <data name="locFooterEmailResource1.Text" xml:space="preserve">
+    <value>E-mail:</value>
+  </data>
+  <data name="locGolfCourceResource1.Text" xml:space="preserve">
+    <value>Access to the golf courses and club house</value>
+  </data>
+  <data name="locGreenLandScapedResource1.Text" xml:space="preserve">
+    <value>Green landscaped ground</value>
+  </data>
+  <data name="locHotelsResource1.Text" xml:space="preserve">
+    <value>Hotels</value>
+  </data>
+  <data name="locInternetConnectionResource1.Text" xml:space="preserve">
+    <value>Internet connection in all the apartments</value>
+  </data>
+  <data name="locKidsClubResource1.Text" xml:space="preserve">
+    <value>Kids club</value>
+  </data>
+  <data name="locLastPargraphResource1.Text" xml:space="preserve">
+    <value> Conveniently  located Just 15 minutes from  Hurghada International Airport and a
+			short walk from Sahl Hasheesh 
+            bay,a waterfront haven is stretched along a 9 km beach promenade that includes range
+			of Superb shops, restaurants, 
+            cafes, bazaars and water sports facilities, in addition to nightly entertainment
+			at the Bay’s Welcome Piazza. </value>
+  </data>
+  <data name="locMessageResource1.Text" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="locNameResource1.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="locParkingFacilitiesResource1.Text" xml:space="preserve">
+    <value>Parking facilities</value>
+  </data>
+  <data name="locPhoneResource1.Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="locPrivateGardenResource1.Text" xml:space="preserve">
+    <value>Private garden for the ground level apartments</value>
+  </data>
+  <data name="locQuickHighlightsResource1.Text" xml:space="preserve">
+    <value>Quick Highlights</value>
+  </data>
+  <data name="locReciveBestOfferResource1.Text" xml:space="preserve">
+    <value>Receive our best offer:</value>
+  </data>
+  <data name="locResortResource1.Text" xml:space="preserve">
+    <value>Resort management and maintenance</value>
+  </data>
+  <data name="locRestaurantResource1.Text" xml:space="preserve">
+    <value>Restaurant and coffee shop</value>
+  </data>
+  <data name="locRoofResource1.Text" xml:space="preserve">
+    <value>Roof Sky Club</value>
+  </data>
+  <data name="locSahlHasheeshResource1.Text" xml:space="preserve">
+    <value>Access to the beaches of Sahl Hasheesh</value>
+  </data>
+  <data name="locSaltLakeResource1.Text" xml:space="preserve">
+    <value>A salt lake</value>
+  </data>
+  <data name="locSatelliteTvResource1.Text" xml:space="preserve">
+    <value>Satellite TV connection in every apartment</value>
+  </data>
+  <data name="locSecondPargraphResource1.Text" xml:space="preserve">
+    <value>  Al Saraya comprises 500 affordable luxury apartments with serene partial sea, golf
+			&amp; pool views.  
+            Property types vary from spacious studios to 3 bedroom deluxe apartments, each designed
+			with the highest 
+            European quality standards and stunningly elegant style. Complemented with outdoor
+			pools (Sea water included), 
+            gym, golf course, spa and recreational facilities.</value>
+  </data>
+  <data name="locSecurityResource1.Text" xml:space="preserve">
+    <value>24 security service</value>
+  </data>
+  <data name="locSUpermarketResource1.Text" xml:space="preserve">
+    <value>Supermarket</value>
+  </data>
+  <data name="locSwimmingPoolsResource1.Text" xml:space="preserve">
+    <value>4 big swimming pools</value>
+  </data>
+  <data name="locWelcomeNoteResource1.Text" xml:space="preserve">
+    <value>Al Saraya Resort Overview </value>
+  </data>
+  <data name="locWellnessResource1.Text" xml:space="preserve">
+    <value>Wellness center and spa</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Al Saraya Resort - Red Sea, Sahl Hashish</value>
+  </data>
+  <data name="SendFiled" xml:space="preserve">
+    <value>An error occurred while submitting your request, please try again later or contact us if the problem persists</value>
+  </data>
+  <data name="SentSuccessfully" xml:space="preserve">
+    <value>Your message has been sent successfully, we will review your message and get back to you soon.</value>
+  </data>
+  <data name="SiteName" xml:space="preserve">
+    <value>Al Saraya Resort</value>
+  </data>
+  <data name="locExclusiveAgent.Text" xml:space="preserve">
+    <value>Exclusive Agent</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>Please include your country code</value>
+  </data>
+</root>

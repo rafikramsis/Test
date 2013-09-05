@@ -1,0 +1,156 @@
+﻿.alertContainer
+{
+    width: auto;
+    margin: auto;
+    background-color: #E2FFDB;
+    border: 1px #A3DB72 solid;
+    margin-bottom: 10px;
+}
+
+.alertContainerBtmBrdr
+{
+    padding: 10px 10px 25px;
+}
+/* Error */
+.errorAlert
+{
+    background-color: #ffdede;
+    border: 1px #ff4f4f solid; 
+}
+
+
+/* Warning */
+.warningAlert
+{
+    background-color: #fffdde;
+    border: 1px #fff64f solid; 
+}
+
+.alertContainerBtmBrdr img
+{
+    float: left;
+}
+.mainNotifierMessage
+{
+    color:#000000;
+    float:left;
+    font-size:13px;
+    line-height:20px;
+    padding-left:17px;
+    width:325px;
+}
+.mainNotifierMessage li
+{
+    list-style: disc inside;
+}
+
+.notifierLink
+{
+    text-decoration: underline;
+    color: Blue;
+}
+.alertTitle
+{
+    color:#000000;
+    float:left;
+    font-size:17px;
+    font-weight:bold;
+    margin-bottom:2px;
+    margin-left:15px;
+    margin-top:7px;
+    padding-bottom:5px;
+}
+.alertTitle span
+{
+    font-size: 13px;
+}
+a.closeAlert
+{
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: right;
+    background: url(../images/alerts/close-alert.gif) no-repeat top left;
+}
+a:hover.closeAlert
+{
+    background-position: bottom left;
+}
+
+
+
+/* popup alerts */
+.alertButtons
+{
+    float: right;
+    margin-right: 80px;
+    margin-top: 0px;
+}
+.alertButtons a, .alertButtons input
+{
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.alertButtons input
+{
+    border: 1px solid gray;
+}
+
+/* loading alert */
+.loadingPopup
+{
+    width: 500px;
+    border: 4px solid #CFCFCF;
+    background-color: #fff;
+    padding: 10px;
+    height: 35px;
+    display: none;
+    margin: auto;
+        color:#666;
+
+}
+
+.loadingPopup img
+{
+    float: left;
+    margin: 5px;
+}
+
+.loadingPopup span
+{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+/* simplae modal script css */
+#simplemodal-overlay {
+  background-color:#000;
+  cursor:wait;
+}
+
+#simplemodal-container {
+  height:650px;
+  width:600px;
+  background-color:transparent;
+  border:0;
+  z-index:2100;
+}
+
+#simplemodal-container a.modalCloseImg {
+  background:url(../images/pop-up/close-btn.gif) no-repeat;
+  width:25px;
+  height:29px;
+  display:inline;
+  z-index:3200;
+  position:absolute;
+  top:-14px;
+  right:-18px;
+  cursor:pointer;
+}

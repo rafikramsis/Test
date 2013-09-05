@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<%@ Register Src="controls/LoadingPopup.ascx" TagName="LoadingPopup" TagPrefix="uc3" %>
+<%@ Register Src="controls/GoogleAnalytics.ascx" TagName="GoogleAnalytics" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>Al Saraya Resort - Red Sea, Sahl Hashish</title>
+	<%= SquishIt.Framework.Bundle.Css()
+        .Add("~/css/normalize.css")
+        .Add("~/css/validationEngine.jquery.css")
+        .Add("~/css/alerts.css")
+        .Add("~/css/lightbox.css")
+        .Render("~/css/combined_#.css")
+	%>
+	<!--[if lt IE 9]>
+        <script src="<%= ResolveClientUrl("~/Scripts/html5shiv.js") %>"></script>
+    <![endif]-->
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+	<%--<uc1:GoogleAnalytics ID="GoogleAnalytics1" AccountID="UA-17465506-XXX" runat="server" />--%>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<%-------------------------------- Header ----------------------------------------%>
+		<header class="shadow">
+			<a href='<%= GetLocalizedUrl("~/") %>' title="Welcome to Al Saraya Resort">
+				<img src='<%= ResolveClientUrl("~/images/alSaraya-logo.png") %>' alt="Welcome to Al Saraya Resort" /></a>
+			<div class="languages floatR">
+				<a class="selected" runat="server" id="lnkRussian" title="check our site in Russian"
+					href="~/ru">
+					<img src='<%= ResolveClientUrl("~/images/rus-flag.jpg") %>' alt="check our site in Russian" /></a>
+				<a href="~/" title="check our site in English" runat="server" id="lnkEnglish">
+					<img src='<%= ResolveClientUrl("~/images/eng-flag.jpg") %>' alt="check our site in English" /></a>
+				<span class="tel">(+2) 0100 290 8484</span>
+
+			</div>
+		</header>
+		<asp:ContentPlaceHolder ID="main" runat="server">
+		</asp:ContentPlaceHolder>
+
+
+		<%---------------------------------------- Footer -------------------------------------------------%>
+		<footer>
+			<div class="contactInfo floatL">
+				<span>E-mail: 
+					<a href="mailto:rvg@estate-alliance.com">rvg@estate-alliance.com</a>
+				</span>
+				<span>Phone: (+2) 0100 290 8484</span>
+				<%--<span>Address: 212 Saint James St, L122 London, UK</span>--%>
+			</div>
+
+			<small class="floatR"><%= DateTime.Today.Year %> © All rights reserved<br />
+				Powered by <a href="http://www.innovixsolutions.com" target="_blank">Innovix Solutions</a>
+			</small>
+			<br class="clear" />
+		</footer>
+
+		<uc3:LoadingPopup ID="LoadingPopup1" runat="server" />
+
+		<%= SquishIt.Framework.Bundle.JavaScript()
+			.Add("~/scripts/jquery-1.8.2.min.js")
+			.Add("~/scripts/jquery.json-2.3.min.js")
+			.Add("~/scripts/common.js")
+			.Add("~/scripts/jquery.validationEngine-en.js")
+			.Add("~/scripts/jquery.validationEngine.js")
+            .Add("~/scripts/lightbox.js")
+			.Render("~/js/combined_#.js")
+		%>
+		<asp:ContentPlaceHolder ID="js" runat="server">
+		</asp:ContentPlaceHolder>
+	</form>
+</body>
+</html>

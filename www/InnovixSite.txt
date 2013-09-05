@@ -1,0 +1,36 @@
+Innovix WebSite Template Version 2.0
+.Net Framework: 4.0
+Last Update: 10 October 2011
+By: Rafik Ramsis
+======================================
+
+Packages:
+==========
+-Added support for SquishIt package to compress css/js files
+- Master Page update to support SquishIt
+
+
+JS Modifications
+=================
+replaced jQuery with the latest version 1.6
+replaced simplemodal with version 1.4
+
+
+New Pages
+==========
+Added new generic 404.htm and 403.htm pages to the error folder
+
+Controls FOlder
+================
+Added StatiCountryList.ascx user control
+
+
+App_Code folder
+===========
+Added the following Methods to the Utilities.cs class:
+- DownloadWebPage (string url)
+
+Added the following Methods to the PageBase.cs class:
+- GetLocalizedItem (object collection, string fieldName)
+
+Added ControlBase.cs class
